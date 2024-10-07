@@ -1,0 +1,22 @@
+{
+  "name": "node_test",
+  "version": "1.0.0",
+  "description": "This is a test",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Asadulloh",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cowsay": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
